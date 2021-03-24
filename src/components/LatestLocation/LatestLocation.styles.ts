@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-const StyledLocation = styled.div`
+const StyledLatestLocation = styled.div`
   background: green;
 `;
 
-export default StyledLocation;
+export default StyledLatestLocation;
