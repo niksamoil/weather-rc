@@ -4,8 +4,6 @@ const StyledMyLocation = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 50px;
-  margin-top: 20px;
-  margin-right: 50px;
   color: white;
   text-align: right;
   svg {
