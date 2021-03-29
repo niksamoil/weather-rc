@@ -5,6 +5,8 @@ const StyledMainWeather = styled.div`
   background: url(${img}) center center/cover no-repeat;
   height: 460px;
   width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 `;
 
 const StyledDiv = styled.div`
@@ -34,6 +36,11 @@ const StyledDayAndHour = styled.div`
     span {
       margin-left: 10px;
     }
+    &:hover {
+      color: #b5acac;
+      transition-duration: 0.2s;
+      cursor: pointer;
+    }
   }
   .daily::after {
     content: '';
@@ -52,6 +59,14 @@ const StyledDayAndHour = styled.div`
     width: 170px;
     height: 4px;
     background-color: #d17af1;
+  }
+  .daily:hover::after {
+    background-color: #ecc97f;
+    transition-duration: 0.2s;
+  }
+  .hourly:hover::after {
+    background-color: #cb9bdc;
+    transition-duration: 0.2s;
   }
 `;
 
