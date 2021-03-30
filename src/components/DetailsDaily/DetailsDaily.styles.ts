@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const StyledDetails = styled.div`
+const StyledDetailsDaily = styled.div`
   display: flex;
   background: rgb(233, 207, 180);
   background: linear-gradient(
@@ -13,4 +13,4 @@ const StyledDetails = styled.div`
   border-bottom-right-radius: 15px;
 `;
 
-export default StyledDetails;
+export default StyledDetailsDaily;

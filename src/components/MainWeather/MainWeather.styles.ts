@@ -7,6 +7,9 @@ const StyledMainWeather = styled.div`
   width: 100%;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  a {
+    text-decoration: none;
+  }
 `;
 
 const StyledDiv = styled.div`

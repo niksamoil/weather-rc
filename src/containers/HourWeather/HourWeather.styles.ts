@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const StyledWeek = styled.ul`
+const StyledHour = styled.ul`
   display: flex;
   li {
     padding: 25px 0;
@@ -11,10 +11,10 @@ const StyledWeek = styled.ul`
     display: block;
     margin: 0 auto;
     width: 130px;
-    .day-name {
+    .hour-value {
       margin: 0 auto;
       color: white;
-      width: 50px;
+      width: 60px;
       height: 25px;
       line-height: 25px;
       background-color: #847a726b;
@@ -36,4 +36,4 @@ const StyledWeek = styled.ul`
   }
 `;
 
-export default StyledWeek;
+export default StyledHour;
